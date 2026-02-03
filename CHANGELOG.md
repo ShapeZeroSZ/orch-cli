@@ -1,0 +1,1 @@
+# Changelog\n\n## [1.0.0] - 2026-02-03\n\n### Added\n- Initial release with `run` command\n- Sequential and parallel task execution\n- Per-task timeout (5min)\n- Quiet mode\n- Click-based CLI with help\n\n[1.0.0]: https://github.com/shapezero/orch-cli/compare/v0.0.0...v1.0.0

@@ -1,0 +1,1 @@
+venv/\nbuild/\ndist/\n*.spec\n__pycache__/\n*.pyc\norch\n.DS_Store
