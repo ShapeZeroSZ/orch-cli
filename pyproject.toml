@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orch-cli"
+description = "Run shell tasks in sequence or in parallel"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["click>=8.1"]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+orch = "orch_cli.cli:main"
+
+[project.urls]
+Source = "https://github.com/ShapeZeroSZ/orch-cli"
+
+[tool.setuptools.dynamic]
+version = { attr = "orch_cli.__version__" }
