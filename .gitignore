@@ -1,1 +1,12 @@
-venv/\nbuild/\ndist/\n*.spec\n__pycache__/\n*.pyc\norch\n.DS_Store
+venv/
+.venv/
+build/
+dist/
+*.spec
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+/orch
+/orch.exe
+.DS_Store
